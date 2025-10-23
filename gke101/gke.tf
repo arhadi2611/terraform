@@ -4,7 +4,7 @@ resource "google_container_cluster" "autopilot" {
   location = var.region
 
   # Enable Autopilot mode
-  enable_autopilot = true
+  # enable_autopilot = true
 
   # Network configuration
   network    = google_compute_network.vpc.id
