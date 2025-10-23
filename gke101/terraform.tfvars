@@ -1,7 +1,7 @@
-project_id   = "your-project-id"
+project_id   = "lab06-474715"
 region       = "us-central1"
-cluster_name = "my-autopilot-cluster"
-network_name = "my-gke-vpc"
+cluster_name = "gkelab101"
+network_name = "gke101-vpc"
 
 # Optional overrides:
 # subnet_cidr  = "10.0.0.0/20"

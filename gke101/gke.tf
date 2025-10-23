@@ -4,7 +4,7 @@ resource "google_container_cluster" "autopilot" {
   location = var.region
 
   # Enable Autopilot mode
-  # enable_autopilot = true
+  enable_autopilot = true
 
   # Network configuration
   network    = google_compute_network.vpc.id
@@ -54,21 +54,6 @@ resource "google_container_cluster" "autopilot" {
   # Binary Authorization (disabled by default, can be enabled)
   binary_authorization {
     evaluation_mode = "DISABLED"
-  }
-
-  # Enable network policy
-  network_policy {
-    enabled = true
-  }
-
-  # Addons
-  addons_config {
-    http_load_balancing {
-      disabled = false
-    }
-    horizontal_pod_autoscaling {
-      disabled = false
-    }
   }
 
   # Logging and monitoring
