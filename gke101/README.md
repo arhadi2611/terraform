@@ -441,5 +441,3 @@ For issues and questions:
   - Comprehensive documentation
 
 ---
-
-**Made with ❤️ using Terraform and GCP**
