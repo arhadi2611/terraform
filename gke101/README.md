@@ -4,7 +4,7 @@ A modular Terraform configuration to deploy a Google Kubernetes Engine (GKE) Aut
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
+- [Overview](#-overview)
 - [Architecture](#architecture)
 - [Prerequisites](#prerequisites)
 - [Project Structure](#project-structure)
