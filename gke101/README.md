@@ -32,16 +32,13 @@ This project provides a production-ready, modular Terraform configuration for de
 ```
 ┌─────────────────────────────────────────────────────┐
 │                  GCP Project                        │
-│                                                     │
 │  ┌───────────────────────────────────────────────┐  │
 │  │           Custom VPC Network                  │  │
-│  │                                               │  │
 │  │  ┌─────────────────────────────────────────┐  │  │
 │  │  │         GKE Subnet                      │  │  │
 │  │  │  - Primary: 10.0.0.0/20                 │  │  │
 │  │  │  - Pods: 10.4.0.0/14                    │  │  │
 │  │  │  - Services: 10.8.0.0/20                │  │  │
-│  │  │                                         │  │  │
 │  │  │  ┌───────────────────────────────────┐  │  │  │
 │  │  │  │   GKE Autopilot Cluster           │  │  │  │
 │  │  │  │   (Private Nodes)                 │  │  │  │
@@ -49,9 +46,7 @@ This project provides a production-ready, modular Terraform configuration for de
 │  │  └─────────────────────────────────────────┘  │  │
 │  │                                               │  │
 │  │  Cloud Router + NAT ──→ Internet              │  │
-│  │                                               │  │
 │  └───────────────────────────────────────────────┘  │
-│                                                     │
 └─────────────────────────────────────────────────────┘
 ```
 
