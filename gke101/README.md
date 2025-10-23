@@ -88,8 +88,8 @@ gcloud services enable cloudresourcemanager.googleapis.com
 
 ```
 .
-├── provider.tf          # Terraform and provider configuration
-├── variables.tf         # Input variable definitions
+├── provider.tf         # Terraform and provider configuration
+├── variables.tf        # Input variable definitions
 ├── vpc.tf              # VPC and subnet resources
 ├── routing.tf          # Cloud Router and NAT configuration
 ├── firewall.tf         # Firewall rules
@@ -178,12 +178,12 @@ Type `yes` when prompted. Deployment takes approximately 10-15 minutes.
 
 ```hcl
 # terraform.tfvars
-project_id   = "my-project-123"
-region       = "asia-southeast1"
-cluster_name = "production-cluster"
-network_name = "prod-vpc"
-subnet_cidr  = "10.10.0.0/20"
-pods_cidr    = "10.20.0.0/14"
+project_id    = "my-project-123"
+region        = "asia-southeast1"
+cluster_name  = "production-cluster"
+network_name  = "prod-vpc"
+subnet_cidr   = "10.10.0.0/20"
+pods_cidr     = "10.20.0.0/14"
 services_cidr = "10.30.0.0/20"
 enable_private_endpoint = true
 ```
