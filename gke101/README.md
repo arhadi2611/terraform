@@ -5,16 +5,16 @@ A modular Terraform configuration to deploy a Google Kubernetes Engine (GKE) Aut
 ## 📋 Table of Contents
 
 - [Overview](#-overview)
-- [Architecture](#architecture)
-- [Prerequisites](#prerequisites)
-- [Project Structure](#project-structure)
-- [Quick Start](#quick-start)
-- [Configuration](#configuration)
-- [Deployment](#deployment)
-- [Accessing the Cluster](#accessing-the-cluster)
-- [Cleanup](#cleanup)
-- [Troubleshooting](#troubleshooting)
-- [Cost Considerations](#cost-considerations)
+- [Architecture](#-architecture)
+- [Prerequisites](#-prerequisites)
+- [Project Structure](#-project-structure)
+- [Quick Start](#-quick-start)
+- [Configuration](#-configuration)
+- [Deployment](#-deployment)
+- [Accessing the Cluster](#-accessing-the-cluster)
+- [Cleanup](#-cleanup)
+- [Troubleshooting](#-troubleshooting)
+- [Cost Considerations](#-cost-considerations)
 
 ## 🎯 Overview
 
