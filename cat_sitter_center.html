@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+        font-family: "Segoe UI", sans-serif;
+        text-align: center;
+        margin: 0;
+        background-color: #f5f9ff; /* light soft blue */
+        color: #1e3a8a;
+        overflow-x: hidden;
+        font-size: 150%;
+      }
+      /* 🐾 Header with logo and title side by side */
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        gap: 20px;
+      }
+      .logo {
+        width: 120px;
+        height: auto;
+      }
+      h1 {
+        font-size: 2.8em;
+        margin: 0;
+        color: #1e40af;
+      }
+      p {
+        font-size: 1.4em;
+        margin-bottom: 20px;
+      }
+      /* 🐈 Full-width cat */
+      .cat-container {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        margin-top: 10px;
+      }
+      img.cat {
+        width: 100%; /* fill page width */
+        max-width: 100%;
+        height: auto; /* keep proportions */
+      }
+      a.btn {
+        display: inline-block;
+        padding: 20px 40px;
+        margin-top: 40px;
+        background-color: #3b82f6; /* bright blue */
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 14px;
+        font-size: 1.3em;
+        transition: background-color 0.3s;
+      }
+      a.btn:hover {
+        background-color: #2563eb;
+      }
+      .contact {
+        margin-top: 30px;
+        font-size: 1.3em;
+        color: #1e3a8a;
+        line-height: 1.6;
+      }
+      .contact a {
+        color: #1e40af;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .contact a:hover {
+        color: #2563eb;
+      }
+      /* 📱 Responsive design */
+      @media (max-width: 768px) {
+        .header {
+          flex-direction: column;
+          gap: 10px;
+        }
+        .logo {
+          width: 100px;
+        }
+        h1 {
+          font-size: 2em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 🐾 Header with Logo and Title -->
+    <div class="header">
+      <img class="logo"
+           src="https://drive.google.com/file/d/1j9IAM5LvvJCq8oC7W2knx8h0AuU_g3qK/view?usp=sharing"
+           alt="CSC Logo">
+      <h1>Cat Sitter Center 🐾</h1>
+    </div>
+    
+    <div class="cat-container">
+      <!-- 🐈 Full-width animated cat -->
+      <img class="cat"
+           src="https://i.pinimg.com/originals/be/5d/67/be5d670c0beea00720f221721bdf1ab9.gif"
+           alt="Cat">
+    </div>
+    <p>We Speak Fluent MEOW 😸</p>
+    <a class="btn"
+       href="https://script.google.com/macros/s/AKfycbwg6v2gkKKrqg4xDzlVO_aH-pJ5Rj2sqbAbr3NA-toTjxeCJHl5cxtR_GXiyt9o6_JO/exec?page=estimator">
+      💰 Estimasi & Booking
+    </a>
+    <div class="contact">
+      <p>📞 <a href="https://wa.me/6281212910077" target="_blank">Contact Admin</a></p>
+    </div>
+  </body>
+</html>
